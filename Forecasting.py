@@ -20,7 +20,7 @@ data['Date'] = pd.to_datetime(data['Date'])
 # Specifying period in which to extract data and use for the model. 
 prediction = data.loc[
     (data['Date'] > datetime(2022,1,1)) &
-    (data['Date'] < datetime(2024,11,1))
+    (data['Date'] < datetime(2025,1,1))
 ]
 
 # Extracting date and lifting from dataset.
